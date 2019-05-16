@@ -269,8 +269,10 @@ Synonym,Szinonima
 "Command was not found.","A parancs nem található!"
 "Input data must be string or convertible into string.","A megadott adat nem karakterlánc, vagy nem konvertálható azzá."
 "Input data must be non-empty string.","A megadott adatnak nem üres karakterláncnak kell lennie."
+"Not valid cipher method.","Nem érvényes titkosító eljárás."
 "Encryption key can't be empty.","Titkosító kulcs nem lehet üres."
 "Source ""%1"" is not exist","""%1"" forrás nem létezik"
+"These arguments can't be empty ""%1""","Ezek az értékek nem lehetnek üresek ""%1"""
 "Cannot find predefined integration user!","Nem található az előre definiált felhasználóintegráció!"
 "File is not ready yet.","A fájl még nincs kész."
 TestMessage,Tesztüzenet
@@ -283,7 +285,10 @@ Analytics,Analitika
 Configuration,Konfiguráció
 "Business Intelligence","Üzleti intelligencia"
 "Advanced Reporting Service","Fejlett jelentési szolgáltatás"
+"Time of day to send data","Napon belüli időpont az adatok küldésére"
 Industry,Ipar
+"In order to personalize your Advanced Reporting experience, please select your industry.","Válassza ki az iparágat a fejlett jelentéskészítő testreszabásához."
+"<strong>Get more insights from Magento Business Intelligence</strong>","<strong>További részletek a Magento Business Intelligence-ről</strong>"
 "Auto Parts","Autó alkatrészek"
 "Baby/Children’s Apparel, Gear and Toys","Baba/gyermek ruházat, felszerelés és játékok"
 "Beauty and Cosmetics","Szépségápolás és kozmetika"
@@ -307,7 +312,9 @@ Other,Egyéb
 "Please select an industry.","Válassza ki az iparágat."
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Az érték érvénytelen. Adja meg az adatokat karakterláncként vagy úgy hogy karakterlánccá lehessen alakítani, majd próbálkozzon újra."
 "The data is invalid. Enter the data as a string and try again.","Az érték érvénytelen. Adja meg az értéket karakterláncként, és próbálkozzon újra."
+"The data is invalid. Use a valid cipher method and try again.","Az adat érvénytelen. Használjon érvényes titkosító eljárást és próbálja újra."
 "Enter the encryption key and try again.","Adja meg a titkosítási kulcsot, és próbálkozzon újra."
+"The ""%1"" source doesn't exist.","A ""%1"" forrás nem létezik."
 "Retry Synchronization",Újraszinkronizálás
 Done,Kész
 Retry,Újra
