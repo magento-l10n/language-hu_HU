@@ -275,6 +275,7 @@ Synonym,Szinonima
 "These arguments can't be empty ""%1""","Ezek az értékek nem lehetnek üresek ""%1"""
 "Cannot find predefined integration user!","Nem található az előre definiált felhasználóintegráció!"
 "File is not ready yet.","A fájl még nincs kész."
+"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Újraszinkronizálás</a>"
 TestMessage,Tesztüzenet
 "Apps and Games","Alkalmazások és játékok"
 "Athletic/Sporting Goods",Sportszerek
