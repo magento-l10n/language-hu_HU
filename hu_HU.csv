@@ -2587,7 +2587,33 @@ Block,Blokk
 "Remove CMS Page from Campaign","CMS oldal eltávolítása a kampányból"
 "Remove CMS Block from Campaign","CMS blokk eltávolítása a kampányból"
 "Delete Customer","Vásárló törlése"
+"Delete Company","Cég törlése"
+Companies,Cégek
+"Add New Company","Új cég hozzáadása"
+(me),(én)
+"Company Name:",Cégnév:
+"Company Legal Name:","Cég teljes neve:"
+"Company Email:","Céges email:"
+"VAT/TAX ID:",Adószám:
+"Re-seller ID:","Viszonteladói azonosító:"
+"Street Address:","Utca, házszám:"
+City:,Település:
+Country:,Ország:
+State/Province:,Megye:
+"ZIP/Postal Code:",Irányítószám:
+"Phone Number:",Telefonszám:
+"Job Title:",Beosztás:
 "Email Address:","E-mail cím:"
+Prefix:,Előtag:
+"First Name:",Keresztnév:
+"Middle Name/Initial:","Második név:"
+"Last Name:",Vezetéknév:
+Suffix:,"Végződés (suffix):"
+Gender:,Nem:
+Duplicated,Másolat
+"Company Structure","Cég felépítése"
+"New Company","Új cég hozzáadása"
+"Thank you! We're reviewing your request and will contact you soon","Köszönjük, jelentkezését felülvizsgáljuk és hamarosan válaszolunk!"
 "A total of %1 record(s) were deleted.","Összesen %1 sor törölve."
 "Add New Role","Új szerepkör hozzáadása"
 "Edit Role","Szerepkör szerkesztése"
@@ -2609,6 +2635,7 @@ Contacts,Névjegyek
 "Add New User","Új felhasználó hozzáadása"
 "Create an Account","Felhasználó létrehozása"
 "When you sign in to your account, you will be able to:","Ha bejelentkezel a felhasználói fiókodba, képes leszel:"
+"Delete a Company?","Cég törlése?"
 "Edit User","Felhasználó szerkesztése"
 Comment,Hozzászólás
 ZIP,Irányítószám
