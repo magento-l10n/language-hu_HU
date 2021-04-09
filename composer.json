@@ -1,6 +1,6 @@
 {
     "name": "community-engineering/language-hu_hu",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "type": "magento2-language",
     "description": "hu_HU language package.",
     "license": [
