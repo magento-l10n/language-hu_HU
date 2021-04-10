@@ -238,28 +238,50 @@ Yes,Igen
 "Error while checking if topic is synchronous","Hiba téma szinkronitás ellenőrzése során"
 "Subscription status","Előfizetés állapota"
 "Sorry, there has been an error processing your request. Please try again later.","Sajnáljuk, de hiba történt a kérés feldolgozása során! Kérjük, próbálja meg később újra!"
+"The time value is using an unsupported format. Enter a supported format and try again.","Az idő nem támogatott formátumban lett megadva. Kérem adja meg támogatott formátumban, és próbálkozzon újra."
 "Cron settings can't be saved","Nem lehet menteni a cron beállításokat"
 "There was an error save new configuration value.","Hiba történt az új konfigurációs érték mentése során!"
 "Please select an industry.","Válassza ki az iparágat."
 "--Please Select--","--Kérem, válasszon--"
+"Command ""%1"" was not found.","A(z) ""%1"" parancs nem található."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Az adat érvénytelen. Adja meg az adatokat karakterláncként vagy úgy hogy karakterlánccá lehessen alakítani, majd próbálkozzon újra."
+"The data is invalid. Enter the data as a string and try again.","Az adat érvénytelen. Adja meg az értéket karakterláncként, és próbálkozzon újra."
+"The data is invalid. Use a valid cipher method and try again.","Az adat érvénytelen. Használjon érvényes titkosító eljárást és próbálja újra."
+"Enter the encryption key and try again.","Adja meg a titkosítási kulcsot, és próbálkozzon újra."
+"The ""%1"" source doesn't exist.","A ""%1"" forrás nem létezik."
 "These arguments can't be empty ""%1""","Ezek az értékek nem lehetnek üresek ""%1"""
 "Cannot find predefined integration user!","Nem található az előre definiált felhasználóintegráció!"
 "File is not ready yet.","A fájl még nincs kész."
+"Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Megváltozott az alapértelmezett URL, és a jelentései aktualizálásra kerülnek. A Fejlett jelentéskészítés akkor lesz újra elérhető, ha ez a változás feldolgozásra kerül. Kérjük próbálkozzon újra később."
+"Failed to synchronize data to the Magento Business Intelligence service. ","Az adatszinkronizálás sikertelen a Magento Üzleti Intelligencia szolgáltatás irányába. "
 "Retry Synchronization",Újraszinkronizálás
 TestMessage,Tesztüzenet
 "Apps and Games","Alkalmazások és játékok"
 "Athletic/Sporting Goods",Sportszerek
 "Art and Design","Művészet és dizájn"
 "Advanced Reporting","Fejlett jelentéskészítés"
+"Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Kapjon új betekintést és kontrollálja az üzlete teljesítményét a dinamikus termékünk, rendelésünk és vevői jelentéseink segítségével, amelyet az Ön vevői adataira szabunk."
 "Go to Advanced Reporting","Ugrás a fejlett jelentéskészítésre"
 Analytics,Analitika
 Configuration,Konfiguráció
 "Business Intelligence","Üzleti intelligencia"
-"Advanced Reporting Service","Fejlett jelentési szolgáltatás"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Ez a szolgáltatás a jelentések dinamikus készletét biztosítja, részletes betekintéssel az Ön cégéről. 
+                A jelentéseit biztonságosan elérheti egy személyre szabott vezérlőpanelen, ami nem része az admin panelnek, ha rákattint a
+                ""Ugrás a fejlett jelentéskészítésre"" link-re. </br> Bővebb információért tekintse meg <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">feltételeinket</a>."
+"Advanced Reporting Service","Fejlett jelentéskészítés szolgáltatás"
 "Time of day to send data","Napon belüli időpont az adatok küldésére"
+"Industry Data","Iparági adatok"
 Industry,Ipar
 "In order to personalize your Advanced Reporting experience, please select your industry.","Válassza ki az iparágat a fejlett jelentéskészítő testreszabásához."
-"<strong>Get more insights from Magento Business Intelligence</strong>","<strong>További részletek a Magento Business Intelligence-ről</strong>"
+"<strong>Get more insights from Magento Business Intelligence</strong>","<strong>További részletek a Magento Üzleti intelligenciáról</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","A Magento Üzleti intelligencia egyszerű és tiszta utat nyújt Önnek ahhoz, hogy
+                    adatvezérlés alapúvá váljon.</br> Bővebben lássa a <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Alap és BI Pro</a> terméket."
 "Auto Parts","Autó alkatrészek"
 "Baby/Children’s Apparel, Gear and Toys","Baba/gyermek ruházat, felszerelés és játékok"
 "Beauty and Cosmetics","Szépségápolás és kozmetika"
@@ -278,11 +300,17 @@ Industry,Ipar
 "Pet Goods","Kisállat termékek"
 "Pharma and Medical Devices","Gyógyszeripari és orvostechnikai eszközök"
 "Technology B2B","Technológia B2B"
+Other,Egyéb
 Done,Kész
 Retry,Újra
 "'Action Details - #' .","""Művelet részletek - #""."
 "%1 item(s) have been scheduled for update.""","%1 elem frissítése beütemezve."""
 "Bulk Actions Log","Tömeges műveletek naplója"
+"Bulk uuid %bulkUuid not exist","Tömeges %bulkUuid uuid nem létezik"
+"Topic %1","%1 Téma"
+"Something went wrong while processing the request.","Hiba a kérelem feldolgozása közben."
+"Error processing %key element of input data","Hiba a bevitt adat %key részének feldolgozásakor"
+"Sorry, something went wrong during product prices update. Please see log for details.","Elnézést, hiba történt a termék árak frissítésekor. Kérjük, nézze meg a naplót a részletekért."
 "%1 item(s) are currently being updated.","%1 elem frissítése megkezdődött."
 "Task ""%1"": ","Feladat ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 elem frissítése beütemezve."
@@ -297,7 +325,9 @@ Dismiss,Elutasítás
 ", %1 failed to update",", %1 sikertelen frissítés"
 "Something went wrong.","Valami elromlott."
 "Action Log","Műveleti napló"
+Report,Jelentés
 "Bulk Actions","Tömeges műveletek"
+"Action Logs","Műveleti naplók"
 "Days Saved in Log","Naplóban tárolt napok"
 "Description of Operation","A művelet leírása"
 Summary,Összefoglaló
@@ -306,11 +336,13 @@ Summary,Összefoglaló
 "To retry, select the items and click “Retry”.","Újrapróbálásához jelölje ki az elemeket, és kattintson az ""Újra"" gombra."
 "Items That Can’t Be Updated.","Elemek, amelyek nem frissíthetők."
 Status,Állapot
+Action,Művelet
 "Meta Information",Meta-információk
 Error,Hiba
 "Dismiss All Completed Tasks","Minden befejezett feladat elutasítása"
 "Action Details - #","Művelet részletek - #"
 "Number of Records Affected","Módosított sorok száma"
+"The role wasn't found for the user. Verify the role and try again.","A szerepkör nincs beállítva a felhasználóhoz. Ellenőrizze a szerepeket, és próbálkozzon újra."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Hiba történt az engedélyezett erőforrások listájának összeállítása közben. Részletek a kivételek naplójában."
 "You created the order.","A megrendelés létre lett hozva."
 "Order saving error: %1","Hiba a rendelés mentése közben: %1"
@@ -402,7 +434,12 @@ Environment,Környezet
 options,opciók
 "Select all","Összes kijelölése"
 "Deselect all","Az összes kijelölés törlése"
+"We couldn't find any records.","Nincs találat."
+Show,Megjelenítés
+"per page",oldalanként
 "%s of %s selected","%s kijelölve a %s -ből "
+"Search by keyword","Keresés kulcsszó alapján"
+"This is a required field.","Ez egy szükséges mező."
 "B2B Features","B2B szolgáltatások"
 "Invalid Form Key. Please refresh the page.","Érvénytelen űrlapkulcs. Kérjük, frissítse a lapot!"
 "You entered an invalid Secret Key. Please refresh the page.","Érvénytelen titkos kulcsot adott meg. Kérjük, frissítse a lapot!"
@@ -519,7 +556,6 @@ To,Eddig
 "Date selector",Dátumválasztó
 "[ deleted ]","[ törölve ]"
 "Select All","Összes kijelölése"
-"We couldn't find any records.","Nincs találat."
 "Add New","Új hozzáadása"
 "Invalid export type supplied for grid export block","Érvénytelen export típus a Grid Export Block-hoz"
 Export,Exportálás
@@ -655,7 +691,6 @@ Thumbnail,Bélyegkép
 "Additional Settings","További beállítások"
 "records found","sorokat találtam"
 selected,kiválasztva
-"per page",oldalanként
 "Previous page","Előző oldal"
 "of %1",/%1
 "Next page","Következő oldal"
@@ -1289,7 +1324,6 @@ Categories,Kategóriák
 "Please select products for attributes update.","Válasszon termékeket a jellemzők frissítéséhez."
 "Please make sure to define SKU values for all processed products.","Bizonyosodjon meg róla hogy a feldolgozott termékeknek van cikkszáma."
 "Something went wrong while updating the product(s) attributes.","Valami elromlott a termék(ek) jellemzőinek frissítése közben."
-"Something went wrong while processing the request.","Hiba a kérelem feldolgozása közben."
 "Unable to add attribute","Nem lehet hozzáadni jellemzőt"
 "Manage Product Attributes","Termék jellemzők kezelése"
 "We can't delete the attribute.","Nem tudjuk az attribútumot törölni."
@@ -1592,7 +1626,6 @@ Prev,Előző
 "Items %1-%2 of %3","%1-%2/%3 termék"
 "%1 Item","%1 elem"
 "%1 Items","%1 termékek"
-Show,Megjelenítés
 "Sort By",Rendezés
 "Set Ascending Direction","Növekvő sorrendbe"
 "Set Descending Direction","Csökkenő sorrendbe"
@@ -2321,7 +2354,6 @@ Purchased,Megvásárolva
 Reverted,Visszaszállítva
 "Store Credit","Bolti hitel"
 "Order # %1","Megrendelés #%1"
-"This is a required field.","Ez egy szükséges mező."
 Date,Dátum
 "Payment Methods","Fizetési Módok"
 "Default Config","Alapértelmezett beállítás"
@@ -3912,7 +3944,6 @@ items,elemek
 "This setting will be applied when all prices in the specific price interval are equal.","Ez a beállítás akkor lesz használatban, amikor minden ár egy megadott intervallumon belül egyenlő."
 "No changes","Nincs változás"
 "All Users","Összes felhasználó"
-Report,Jelentés
 IP-Address,"IP cím"
 "Error Message",Hibaüzenet
 Reorder,Újrarendelés
@@ -4922,7 +4953,6 @@ Off,Ki
 "${ $.visible } out of ${ $.total } visible","${ $.visible } / ${ $.total } látható"
 "You have successfully saved your edits.","Sikeresen mentette a módosításokat."
 "You haven't selected any items!","Nem jelölt ki egy elemet sem!"
-"Search by keyword","Keresés kulcsszó alapján"
 Keyword,Kulcsszó
 "Please enter more or equal than {0} symbols.","Kérem adjon meg {0} vagy több szimbólumot."
 "Please enter less or equal than {0} symbols.","Kérem adjon meg {0} vagy kevesebb szimbólumot."
