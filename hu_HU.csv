@@ -691,7 +691,6 @@ Minute,Perc
 "Report an Issue","Probléma jelentése"
 Scope:,Hatókör:
 "Stores Configuration","Boltok beállítása"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Erősítse meg a hatókőr megváltoztatását. Az adatok nem lesznek lementve, és el fognak veszni."
 "Additional Cache Management","További gyorsítótár-kezelő"
 "Flush Catalog Images Cache","Katalógusképek gyorsítótárának ürítése"
 "Pregenerated product images files","Előre elkészített termékképek"
@@ -726,6 +725,7 @@ Loading...,Betöltés...
 Examples,Példák
 "Use Default Value","Alapértelmezett érték használata"
 "We could not detect a size.","Nem tudjuk megállapítani a méretet."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Erősítse meg a hatókőr megváltoztatását. Az adatok nem lesznek lementve, és el fognak veszni."
 "Warning message","Figyelmeztető üzenet"
 "This operation can take a long time","Ez a művelet hosszú ideig eltarthat"
 "Allow everything","Mindent engedélyez"
@@ -2072,10 +2072,8 @@ End,Vég
 "Allow Qty Below 0 and Notify Customer","0 alatti készlet engedélyezése és a vásárló figyelmeztetése"
 "Unable to remove Stock with id ""%1""","Nem törölhető a ""%1"" azonosítójú raktár"
 "Unable to remove Stock Status for product %1","A %1 termék raktár állapotát nem lehet eltávolítani"
-"Not all of your products are available in the requested quantity.","Nem minden termék van raktáron a kért mennyiségben."
-"The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1."
 "Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét."
-"The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1."
+"The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nincs annyi ""%1"" raktáron, mint amennyit kért, de megrendeljük a maradék %2 darabot."
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nincs ""%1"" a kért mennyiségben raktáron, így megrendeljük a maradék %2 darabot."
 "You can buy %1 only in quantities of %2 at a time.","A %1 termékből csak %2 darabot vásárolhat egyszerre."
@@ -2225,7 +2223,6 @@ Path,Útvonal
 "Catalog Products List","Katalógus termékek listája"
 "List of Products","Termékek listája"
 "Products Grid Template","Termék rács sablon"
-"Invalid method: %1","Érvénytelen metódus: %1"
 "My Cart (1 item)","Kosár (1 termék)"
 "My Cart (%1 items)","Kosár (%1 termék)"
 "My Cart",Kosaram
@@ -2268,6 +2265,7 @@ Checkout,Fizetés
 "Sorry, guest checkout is not available.","Sajnáljuk, a vendég vásárlás nem elérhető."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Erősítse regisztrációját. Kérjük, ellenőrizze email fiókját és kattintson a visszaigazoló linkre, vagy <a href=""%1""> kattintson ide</a> egy új link létrehozásához."
 "Load customer quote error","Vevői ajánlat hiba betöltése"
+"Invalid method: %1","Érvénytelen metódus: %1"
 Error!,Hiba!
 "DB exception",Adatbázishiba
 "Print receipt","Bizonylat nyomtatása"
@@ -2697,13 +2695,13 @@ Select,Válasszon
 "Create Product Configurations","Termék beállítások létrehozása"
 "Buy %1 for %2 each and","Vegyen %1 -t darabját %2 -ért és"
 save,mentés
+"Disable Product","Termék letiltása"
+"Enable Product","Termék engedélyezése"
 "New Product Review","Új termék értékelés"
 "Here are the products you're about to create.","Itt vannak a termékek, amiket létrehozott."
 "You created these products for this configuration.","Ezeket a termékeket hozta létre a beállításhoz."
 "Disassociated Products","Már nem hozzárendelt termékek"
 "These products are not associated.","Ezek a termékek nincsenek hozzárendelve."
-"Disable Product","Termék letiltása"
-"Enable Product","Termék engedélyezése"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Egy jellemző eltávolítva. Ez a jellemző többé nem jelenik meg a beállításokban."
 "Select options for all attributes or remove unused attributes.","Válasszon lehetőségeket minden jellemzőhöz, vagy távolítsa el a használaton kívüli jellemzőket."
 "Choose this option to delete and replace extension data for all past configurations.","Válassza ezt a lehetőséget az összes korábbi konfiguráció kiterjesztéseinek törléséhez és kicseréléséhez."
@@ -4379,7 +4377,6 @@ Instructions,Utasítások
 "Payment Services","Fizetési szolgáltatások"
 here,itt
 Status:,Állapot:
-"Update Shipping Method","Szállítási mód frissítése"
 Manage,Kezelés
 "Your shopping cart has been updated with new prices.","Az Ön kosara frissítve lett az új árakra."
 "We cannot load the configuration from file %1.","Nem sikerült betölteni a konfigurációt a %1 fájlból."
@@ -4914,7 +4911,6 @@ Track:,Követés:
 "See our Shipping Policy","Tekintse meg Szállítási Feltételeinket"
 "Shipping Settings Section","Szállítási beállítások szakasz"
 "Shipping Policy Parameters Section","Szállítási feltételek paraméterei szakasz"
-"Shipping Methods Section","Szállítás módok szakasz"
 "Shipping Settings","Szállítási beállítások"
 Origin,Származás
 "Shipping Policy Parameters","Szállítási feltételek paraméterei"
@@ -4940,10 +4936,10 @@ Yearly,Éves
 "Date & Time","Dátum & idő"
 "Current store is not active.","Az aktuális bolt nem aktív."
 "Requested store is inactive","A kért bolt inaktív"
-"Name is required","Név megadása kötelező"
 "Store is inactive","A bolt inaktív"
 "Invalid store parameter.","Érvénytelen webáruház paraméter."
 "Default store is inactive","Alapértelmezett webáruház inaktív"
+"Name is required","Név megadása kötelező"
 "Your Language:","Az ön nyelve:"
 "Your Language","Az ön nyelve"
 Language,Nyelv
@@ -5085,6 +5081,7 @@ Themes,Témák
 "Insert File","Fájl beszúrása"
 welcome,üdvözöljük
 "Design Configuration",Design-konfiguráció
+"We cannot find a theme with id ""%1"".","A ""%1"" azonosítójú Téma nem található."
 "You deleted the theme.","A Témát törölte."
 "We cannot delete the theme.","A Téma nem törölhető."
 "File not found: ""%1"".","Fájl nem található: ""%1""."
@@ -5092,7 +5089,6 @@ welcome,üdvözöljük
 "We cannot find the theme.","Téma nem található."
 "This theme is not editable.","Ez a Téma nem módosítható."
 "You saved the theme.","A Témát elmentette."
-"We cannot find a theme with id ""%1"".","A ""%1"" azonosítójú Téma nem található."
 "Invalid type","Érvénytelen típus"
 "Browse Files","Fájlok tallózása"
 "JavaScript seems to be disabled in your browser.","Úgy tűnik a JavaScript ki van kapcsolva a böngésződben."
@@ -5195,8 +5191,6 @@ Keyword,Kulcsszó
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Adjon meg egy érvényes URL-kulcsot (pl: ""pelda-oldal"", a ""pelda-oldal.html"" vagy a ""masikszint/pelda oldal"")."
 "Please enter a valid zip code.","Kérem adjon meg egy érvényes irányítószámot."
 "Please select State/Province.","Kérem válasszon államot/megyét."
-"Please enter a value less than or equal to {0}.","Adjon meg egy értéket amely kisebb vagy egyenlő mint {0}."
-"Please enter a value greater than or equal to {0}.","Adjon meg egy értéket amely nagyobb vagy egyenlő mint {0}."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Adjon meg érvényes e-mail címeket, vesszővel elválasztva. Például johndoe@domain.com, johnsmith@domain.com."
 "Please enter issue number or start date for switch/solo card type.","Kérem adja meg a hibaszámot, vagy a switch/solo kártyatípus kezdő dátumát."
 "Please enter positive number in this field.","Kérem adjon meg egy pozitív számot."
@@ -5491,6 +5485,8 @@ Translate,Fordítás
 "Please enter at least {0} characters.","Kérem adjon meg legalább {0} karaktert."
 "Please enter a value between {0} and {1} characters long.","Adjon meg egy értéket amely {0} és {1} közötti karakter hossszúságú."
 "Please enter a value between {0} and {1}.","Adjon meg {0} és {1} közötti értéket."
+"Please enter a value less than or equal to {0}.","Adjon meg egy értéket amely kisebb vagy egyenlő mint {0}."
+"Please enter a value greater than or equal to {0}.","Adjon meg egy értéket amely nagyobb vagy egyenlő mint {0}."
 "Please enter a date between %min and %max.","Adjon meg egy dátumot %min és %max között."
 "Please enter a valid full date.","Kérem adjon meg egy érvényes dátumot."
 "Please enter a valid month (1-12).","Adjon meg egy érvényes hónapot (1 - 12)."
