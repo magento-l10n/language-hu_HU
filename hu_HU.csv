@@ -12,6 +12,7 @@ None,"Egyik sem"
 "This item needs to be assigned to a store view. Assign item and try again.","Ezt a tételt hozzá kell rendelni egy áruházi nézethez. Rendelje hozzá, és próbálkozzon újra."
 "More permissions are needed to save this item.","További engedélyek szükségesek az elem mentéséhez."
 "More permissions are needed to delete this item.","További engedélyek szükségesek az elem törléséhez."
+"Not allowed to edit the category's design attributes","A kategória dizájn jellemzőjének szerkesztése nem engedélyezett"
 "At least one website or store group needs to be selected. Select and try again.","Legalább egy weboldalt vagy bolt csoportot ki kell választani. Jelölje ki, majd próbálkozzon újra."
 "More permissions are needed to set All Scopes to a Role.","További jogosultságokra van szükség ahhoz, hogy az összes hatókört egy szerephez beállítsa."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","A(z) ""%1"" webhelyazonosító helytelen. Ellenőrizze a webhelyazonosítót, és próbálkozzon újra."
@@ -434,7 +435,17 @@ Environment,Környezet
 options,opciók
 "Select all","Összes kijelölése"
 "Deselect all","Az összes kijelölés törlése"
+Selected,Kijelölve
 "We couldn't find any records.","Nincs találat."
+" Item(s)",Termék(ek)
+"Items ","Termékek "
+" to "," eddig "
+" of "," a "
+" total"," összesen"
+Page,Oldal
+Previous,Előző
+"You're currently reading page","Éppen olvasott oldal"
+Next,Következő
 Show,Megjelenítés
 "per page",oldalanként
 "%s of %s selected","%s kijelölve a %s -ből "
@@ -678,8 +689,6 @@ password,jelszó
 "Sign Out",Kijelentkezés
 "About the calendar","A naptár névjegye"
 "Go Today","Ugrás a mai napra"
-Previous,Előző
-Next,Következő
 WK,hét
 Time,Idő
 Hour,Óra
@@ -1523,7 +1532,6 @@ List,Lista
 "Static block only","Csak statikus blokk"
 "Static block and products","Statikus blokk és termékek"
 "Please select a static block.","Kérjük, válasszon egy statikus blokkot."
-"Not allowed to edit the category's design attributes","A kategória dizájn jellemzőjének szerkesztése nem engedélyezett"
 "Could not save product ""%1"" with position %2 to category %3","Nem lehet menteni a(z) ""%1"" terméket a(z) %2 pozícióba a(z) %3 kategóriában"
 "The category doesn't contain the specified product.","A kategória nem tartalmazza a megadott terméket."
 "Could not save product ""%product"" with position %position to category %category","A(z) ""%product"" termék a(z) %position pozícióban a(z) %category kategóriában nem menthető"
@@ -3861,7 +3869,6 @@ Numeric,Numerikus
 Generate,Létrehoz
 "Code Pool used: ","Használt kód készlet: "
 " (free "," (ingyen "
-" of "," a "
 " total)."," összesen)."
 "Refund Gift Cards to Store Credit","Ajándékkártya visszatérítése bolti hitelbe"
 "Add Gift Card","Ajándékkártya hozzáadása"
@@ -5097,7 +5104,6 @@ welcome,üdvözöljük
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","A legjobb élményhez az oldalunkon, győződjön meg róla, hogy a helyi tárolás be van kapcsolva a böngészőjében."
 "Items %1 to %2 of %3 total","Elem %1-%2/%3"
 "%1 Item(s)","%1 elem"
-Page,Oldal
 "We don't recognize this file extension.","Ez a fájl kiterjesztés nem ismert."
 "1 column","1 oszlop"
 "Default welcome msg!","Alapértelmezett üdvözlő üzenet!"
@@ -5365,8 +5371,11 @@ description,leírás
 "My Wish List",Kívánságlistám
 "%1 has been moved to your wish list.","%1 átkerült a kívánságlistájára."
 "Message length must not exceed %1 symbols","Üzenet hossza nem haladhatja meg a %1 szimbólumot"
+"Maximum of %1 emails can be sent.","Maximum %1 email küldhető."
 "Your wish list has been shared.","A kívánságlistád megosztva."
 "%1 has been updated in your Wish List.","%1 frissítve az Ön kívánságlistáján."
+"Can't update wish list","Nem lehet frissíteni a kívánságlistát"
+"We can't update your Wish List right now.","Jelenleg nem tudjuk frissíteni a kívánságlistát."
 "Display number of items in wish list","A kívánság lista elemeinek a száma"
 "Product is not salable.","A termék nem eladható."
 "%1 for ""%2"".","%1-t %2-ért."
@@ -5451,6 +5460,9 @@ Worldpay,WorldPay
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ha kérdésed van a rendeléseddel kapcsolatban, <a href=""mailto:%store_email"">%store_email</a> címre írj nekünk."
 "Backup options","Biztonsági mentés opciók"
 Warning,Figyelmeztetés
+"Insert Variable","Változó beszúrása"
+"Insert Widget","Widget beszúrása"
+"The widget %1 is no longer available. Select a different widget.","A %1 widget már nem érhető el. Válasszon másik widgetet."
 "Recent items","Legújabb elemek"
 "Show all...","Összes megjelenítése..."
 "Please enter a number greater 0 in this field.","Ebben a mezőben adjon meg egy egy 0-nál nagyobb számot."
@@ -5458,9 +5470,12 @@ Warning,Figyelmeztetés
 "Please specify Url.","Kérem, adjon meg egy Url-t."
 "Method %s does not exist on jQuery.decorate","%s metódus nem létezik a jQuery.decorate függvényben"
 "Please wait...","Kérem várjon..."
+"All %1","Minden %1"
 Translate,Fordítás
 "No marginal white space please","Kérem ne adjon meg szóközöket"
 "Please remove invalid characters: {0}.","Kérjük, távolítsa el az érvénytelen karaktereket: {0}."
+"Forbidden extensions has been used. Avoid usage of ","Tiltott kiterjesztést használt. Ne használja tovább "
+"First character must be letter.","Az első karakternek betűnek kell lennie."
 "Please select one of the options above.","Jelöljön ki egyet a lehetőségek közül."
 "Please select a file.","Jelöljön ki egy fájlt."
 "Please select one of the options.","Jelöljön ki egyet a lehetőségek közül."
@@ -5476,6 +5491,9 @@ Translate,Fordítás
 "Please enter a valid number.","Adjon meg egy érvényes számot."
 "This is required field","Ez a mező kitöltendő"
 "Admin is a required field in each row.","Admin egy szükséges mező minden sorban."
+"Please enter a quantity greater than 0.","Kérem adjon meg egy nullánál nagyobb mennyiséget."
+"The maximum you may purchase is %1.","A legnagyobb rendelhető mennyiség %1."
+"The password can't be the same as the email address. Create a new password and try again.","A jelszó nem lehet ugyan az mint az email cím. Kérem használjon másik jelszót, és próbálja meg még egyszer."
 "Please fix this field.","Kérjük javítsa ki ezt a mezőt."
 "Please enter a valid URL.","Adjon meg egy érvényes URL-címet."
 "Please enter a valid date (ISO).","Kérem adjon meg egy érvényes dátumot (ISO)."
