@@ -2864,6 +2864,7 @@ Unlock,Feloldás
 "There was an error detecting Customer Group.","Hiba a vásárlói csoportban."
 "Validate VAT Number","Adószám ellenőrzése"
 "Date of Birth","Születési dátum"
+Today,Ma
 "Bad request.","Hibás kérés."
 "This confirmation key is invalid or has expired.","Az ellenőrző kulcs érvénytelen vagy lejárt."
 "There was an error confirming the account","Hiba történt a fiók érvényesítése során"
@@ -3012,6 +3013,8 @@ Newsletters,Hírlevelek
 "Use as my default shipping address","Alapértelmezett szállítási cím használata"
 "Go back",Vissza
 "Additional Address Entries","További cím bejegyzések"
+"First Name",Vezetéknév
+"Last Name",Keresztnév
 "Please enter your email below and we will send you the confirmation link.","Kérjük adja meg az email címét, és elküldjük Önnek a visszaigazoló linket."
 "Send confirmation link","Megerősítő link küldése"
 "Back to Sign In","Vissza a bejelentkezéshez"
@@ -3148,8 +3151,8 @@ Group,Csoport
 "Confirmed email","Visszaigazolt email"
 "Account Created in","Fiók létrehozva"
 "Tax VAT Number",Adószám
-"Billing Firstname","Számlázási keresztnév"
-"Billing Lastname","Számlázási vezetéknév"
+"Billing Firstname","Számlázási vezetéknév"
+"Billing Lastname","Számlázási keresztnév"
 "Account Lock","Fiók zárolva"
 "Last Activity","Utolsó aktivitás"
 "Customer Information","Vevő információk"
