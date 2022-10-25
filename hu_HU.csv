@@ -1141,6 +1141,13 @@ URL,URL-cím
 "CVV verification failed.","CVV ellenőrzés sikertelen."
 "Postal code verification failed.","Irányítószám ellenőrzés sikertelen."
 "Company is too long.","Cégnév túl hosszú."
+"First name is too long.","A keresztnév túl hosszú."
+"Last name is too long.","A vezetéknév túl hosszú."
+"Postal code is required.","Irányítószám megadása kötelező."
+"Street address is required.","Az utca megadása kötelező."
+"Street address is too long.","Az utcanév túl rövid."
+"Postal code can only contain letters, numbers, spaces, and hyphens.","Az irányítószám csak betűket, számokat, szóközöket, és kötőjeleket tartalmazhat."
+"Invalid PayPal account information.","Érvénytelen PayPal fiók információ."
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Szűrők alkalmazása az eredményért. Csak az első 100 rekord jelenik meg a táblázatban, de lehetősége van a teljes jelentés letöltésére .csv formátumban."
 Select...,Válasszon...
 "Transaction Type","Tranzakció típus"
@@ -1223,6 +1230,7 @@ Fixed,Rögzített
 "Could not save child: ""%1""","Nem lehet menteni a gyermeket: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","A megadott ""%1"" cikkszámú termék nem nem tartalmazza a ""%2"" lehetőséget"
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","A ""%1"" cikkszámú gyermek már hozzá van rendelve a ""%2"" termékhez"
+"The bundle product doesn't exist. Review your request and try again.","A kötegelt termék nem létezik. Ellenőrizze a kérést, és próbálja újra."
 "The option couldn't be saved.","Az opció nem menthető el."
 """%fieldName"" is required. Enter and try again.","""%fieldName"" megadása kötelező."
 "Price Range",Ártartomány
