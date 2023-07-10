@@ -67,6 +67,7 @@ Severity,Súlyosság
 "Date Added","Hozzáadás dátuma"
 Message,Üzenet
 Actions,Műveletek
+"Close popup","Felugró ablak bezárása"
 "You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Megtekintettél és orvosoltál minden rendszerüzenetet. Frissítsd az oldalt az értesítés törléséhez, eltüntetéséhez."
 "Manage Shopping Cart","Kosár kezelése"
 "Create Order","Rendelés létrehozása"
@@ -2853,6 +2854,7 @@ Sent,Elküldve
 Sending,Küldés
 Paused,Szüneteltetve
 Unknown,Ismeretlen
+Order,Megrendelés
 "Bill-to Name","Számlázási név"
 "Ship-to Name","Szállítási név"
 "Purchase Point","Vásárlási pont"
@@ -2895,6 +2897,7 @@ Unlock,Feloldás
 "The customer would belong to Customer Group %s.","%s vásárlói csoportba tartozik a vásárló."
 "There was an error detecting Customer Group.","Hiba a vásárlói csoportban."
 "Validate VAT Number","Adószám ellenőrzése"
+"Customer Login",Belépés
 "Date of Birth","Születési dátum"
 "Bad request.","Hibás kérés."
 "This confirmation key is invalid or has expired.","Az ellenőrző kulcs érvénytelen vagy lejárt."
@@ -5513,6 +5516,8 @@ Worldpay,WorldPay
 "continue shopping","vásárlás folytatása"
 "Transaction has been canceled","Tranzakció törölve"
 "Transaction has been declined","Tranzakció elutasítva"
+Summary,Áttekintés
+"Account Dashboard","Felhasználói fiók irányítópult"
 "Quick Checkout","Gyors fizetés"
 "Store alternative addresses","Alternatív címek tárolása"
 "For shipping to multiple family members and friends","Szállítás több családtagnak és barátnak"
@@ -5521,7 +5526,6 @@ Worldpay,WorldPay
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Nyitvatartás:<br /><span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ha kérdésed van a rendeléseddel kapcsolatban, <a href=""mailto:%store_email"">%store_email</a> címre írj nekünk."
 "Shipping Info","Szállítási információ"
-"Account Dashboard","Felhasználói fiók irányítópult"
 "About Us",Rólunk
 "My Account",Fiókom
 "Backup options","Biztonsági mentés opciók"
