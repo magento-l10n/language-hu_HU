@@ -4786,6 +4786,7 @@ Value,Érték
 "Print Order","Rendelés nyomtatása"
 "Recent Orders","Az előző megrendelések"
 "Credit memo for your %store_name order","Jóváírás a %store_name megrendeléshez"
+"%name,",%name
 "Thank you for your order from %store_name.","Köszönjük a %store_name webáruházban leadott megrendelést."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","A rendelés állapotát ellenőrizheted, ha <a href=""%account_url"">bejelentkezel a felhasználói fiókodba</a>."
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Az ön jóváírása #%creditmemo_id a(z) #%order_id számú megrendeléshez"
